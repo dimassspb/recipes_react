@@ -11,7 +11,7 @@ import Recipe from "./pages/Recipe";
 function App() {
     return (
         <>
-            <Router>
+            <Router basename='/recipes_react'>
                 <Header />
                 <main className='container content'>
                     <Routes>
